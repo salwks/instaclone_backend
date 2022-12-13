@@ -2,7 +2,7 @@
   "name": "instaclone",
   "version": "1.0.0",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon --exec babel-node server "
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,15 @@
     "url": "https://github.com/salwks/instaclone_backend/issues"
   },
   "homepage": "https://github.com/salwks/instaclone_backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/node": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
 }
